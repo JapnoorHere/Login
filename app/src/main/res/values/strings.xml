@@ -20,4 +20,6 @@
     <string name="Enter_Description">Enter Description</string>
     <string name="Description_should_be_at_leat_5_characters">Description should be atleast 5 characters</string>
     <string name="Password_must_be_same">Password Must Be Same</string>
+    <string name="Enter_OTP">Enter OTP</string>
+    <string name="Submit_Successfully">Submit Successfully</string>
 </resources>

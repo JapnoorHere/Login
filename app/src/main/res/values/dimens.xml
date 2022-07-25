@@ -16,4 +16,9 @@
     <dimen name="margin_280dp">280dp</dimen>
     <dimen name="margin_290dp">290dp</dimen>
     <dimen name="margin_150dp">150dp</dimen>
+    <dimen name="margin_350dp">350dp</dimen>
+    <dimen name="margin_330dp">330dp</dimen>
+    <dimen name="margin_260dp">260dp</dimen>
+    <dimen name="margin_240dp">240dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
 </resources>
