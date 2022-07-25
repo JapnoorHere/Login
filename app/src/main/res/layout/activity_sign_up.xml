@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:textSize="@dimen/margin_50dp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etFirstNameFP"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/etLastNameFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        />
+
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/etEmailFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email "
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/etPhoneNoFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number "
+        android:digits="0123456789"
+        android:inputType="phone"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        />
+    <EditText
+        android:id="@+id/etPasswordFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password "
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        />
+
+    <EditText
+        android:id="@+id/etRePasswordFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter Password "
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender : "
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:textSize="@dimen/margin_30dp"
+        android:textColor="@color/green"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        />
+    <RadioGroup
+        android:id="@+id/rgGenderFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rbHeFP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="He"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rbSheFP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="She"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rbOtherFP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:layout_weight="1"
+            />
+
+
+    </RadioGroup>
+
+     <EditText
+         android:id="@+id/etDescriptionFP"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Description"
+          android:layout_marginLeft="@dimen/margin_20dp"
+          android:layout_marginRight="@dimen/margin_20dp"
+         android:visibility="gone"
+         />
+
+    <Button
+        android:id="@+id/btnSubmitFP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_10dp"
+        />
+</LinearLayout>
+</ScrollView>

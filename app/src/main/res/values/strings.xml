@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="please_enter_email">Please Enter Email</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="password_must_be_at_least_6_characters">Password Must Be At Least 6 Characters</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="will_be_implemented_soon">Will Be Implemented Soon</string>
+    <string name="Enter_name">Enter Name</string>
+    <string name="Enter_First_name">Enter First Name</string>
+    <string name="Enter_last_name">Enter Last Name</string>
+    <string name="Enter_valid_email">Enter Valid Email</string>
+    <string name="Enter_email">Enter Email</string>
+    <string name="Password_is_not_same">Password Is Not Same</string>
+    <string name="Enter_phoneNo">Enter Phone Number</string>
+    <string name="Enter_Password">Enter Password</string>
+    <string name="Enter_Password_again">Enter Password Again</string>
+    <string name="Signup_Successful">Signup Successful</string>
+    <string name="Enter_valid_PhoneNo">Enter Valid Phone Number</string>
+    <string name="Please_enetr_description">Please Enter Description</string>
+    <string name="Enter_Description">Enter Description</string>
+    <string name="Description_should_be_at_leat_5_characters">Description should be atleast 5 characters</string>
+    <string name="Password_must_be_same">Password Must Be Same</string>
+</resources>
