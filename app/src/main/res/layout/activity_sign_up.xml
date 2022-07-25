@@ -27,7 +27,7 @@
     android:orientation="horizontal">
 
     <EditText
-        android:id="@+id/etFirstNameFP"
+        android:id="@+id/etFirstNameSU"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
 
 
     <EditText
-        android:id="@+id/etLastNameFP"
+        android:id="@+id/etLastNameSU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Last Name"
@@ -53,7 +53,7 @@
 </LinearLayout>
 
     <EditText
-        android:id="@+id/etEmailFP"
+        android:id="@+id/etEmailSU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email "
@@ -64,7 +64,7 @@
         />
 
     <EditText
-        android:id="@+id/etPhoneNoFP"
+        android:id="@+id/etPhoneNoSU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Phone Number "
@@ -75,7 +75,7 @@
         android:layout_marginRight="@dimen/margin_20dp"
         />
     <EditText
-        android:id="@+id/etPasswordFP"
+        android:id="@+id/etPasswordSU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password "
@@ -86,7 +86,7 @@
         />
 
     <EditText
-        android:id="@+id/etRePasswordFP"
+        android:id="@+id/etRePasswordSU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Re-enter Password "
@@ -105,7 +105,7 @@
         android:layout_marginLeft="@dimen/margin_20dp"
         />
     <RadioGroup
-        android:id="@+id/rgGenderFP"
+        android:id="@+id/rgGenderSU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_10dp"
@@ -114,21 +114,21 @@
         >
 
         <RadioButton
-            android:id="@+id/rbHeFP"
+            android:id="@+id/rbHeSU"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="He"
             android:layout_weight="1"
             />
         <RadioButton
-            android:id="@+id/rbSheFP"
+            android:id="@+id/rbSheSU"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="She"
             android:layout_weight="1"
             />
         <RadioButton
-            android:id="@+id/rbOtherFP"
+            android:id="@+id/rbOtherSU"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Other"
@@ -139,7 +139,7 @@
     </RadioGroup>
 
      <EditText
-         android:id="@+id/etDescriptionFP"
+         android:id="@+id/etDescriptionSU"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:hint="Description"
@@ -149,7 +149,7 @@
          />
 
     <Button
-        android:id="@+id/btnSubmitFP"
+        android:id="@+id/btnSubmitSU"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"

@@ -92,6 +92,5 @@
         android:text="Sign Up "
         android:layout_marginTop="@dimen/margin_10dp"
         android:layout_gravity="center"
-        android:paddingTop="@dimen/margin_15dp"
         android:textColor="@color/green" />
 </LinearLayout>

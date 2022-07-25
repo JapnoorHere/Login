@@ -49,12 +49,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
         btnsignUp.setOnClickListener {
             var intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
         }
-
 
         tvForgotPassword.setOnClickListener{
             var intent=Intent(this, ForgotPasswordActivity::class.java)
