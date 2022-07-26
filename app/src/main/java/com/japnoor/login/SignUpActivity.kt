@@ -119,7 +119,7 @@ class SignUpActivity : AppCompatActivity() {
                 etRePasswordSU.requestFocus()
                 etRePasswordSU.error=resources.getString(R.string.Enter_Password_again)
             }
-            else if(etDescriptionSU.text.toString().isNullOrEmpty()){
+            else if(rbOtherSU.isChecked && etDescriptionSU.text.toString().isNullOrEmpty()){
                 etDescriptionSU.requestFocus()
                 etDescriptionSU.error=resources.getString(R.string.Enter_Description)
             }

@@ -22,4 +22,6 @@
     <string name="Password_must_be_same">Password Must Be Same</string>
     <string name="Enter_OTP">Enter OTP</string>
     <string name="Submit_Successfully">Submit Successfully</string>
+    <string name="Account_creadted">Account Created</string>
+    <string name="OTP_sent">OTP sent</string>
 </resources>

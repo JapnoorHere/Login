@@ -40,8 +40,9 @@ class OTPActivity : AppCompatActivity() {
                 et4OTP.requestFocus()
         }
 
+
         tvResendOTP.setOnClickListener{
-            Toast.makeText(this,resources.getString(R.string.will_be_implemented_soon),Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,resources.getString(R.string.OTP_sent),Toast.LENGTH_SHORT).show()
         }
 
         btnSubmitOTP.setOnClickListener{
@@ -62,7 +63,7 @@ class OTPActivity : AppCompatActivity() {
                 et4OTP.error=resources.getString(R.string.Enter_OTP)
             }
             else{
-            Toast.makeText(this,resources.getString(R.string.Submit_Successfully),Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,resources.getString(R.string.Account_creadted),Toast.LENGTH_SHORT).show()
         }
         }
     }

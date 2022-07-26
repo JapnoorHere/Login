@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.*
+import androidx.core.widget.doOnTextChanged
 import com.japnoor.login.SignUpActivity
 import com.japnoor.login.ForgotPasswordActivity
 import com.japnoor.login.R
@@ -47,6 +48,18 @@ class MainActivity : AppCompatActivity() {
             else{
                 Toast.makeText(this,resources.getString(R.string.login_successful),Toast.LENGTH_LONG).show()
             }
+        }
+
+        etPassword.doOnTextChanged { text, start, before, count ->
+
+            if((text?.length ?:0) <6)
+            {
+                etPassword.error=resources.getString(R.string.password_must_be_at_least_6_characters)
+            }
+            else{
+                etPassword.error=null
+            }
+
         }
 
         btnsignUp.setOnClickListener {
