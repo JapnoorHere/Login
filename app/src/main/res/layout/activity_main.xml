@@ -110,5 +110,48 @@
         android:layout_marginTop="@dimen/margin_50dp"
         android:layout_gravity="center"
         android:textColor="@color/green" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/ibPhone"
+        android:layout_width="@dimen/margin_50dp"
+        android:layout_height="@dimen/margin_50dp"
+        android:src="@drawable/ic_baseline_local_phone_24"
+        android:layout_marginLeft="@dimen/margin_80dp"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:padding="@dimen/margin_30dp"
+        />
+    <ImageButton
+        android:id="@+id/ibSms"
+        android:layout_width="@dimen/margin_50dp"
+        android:layout_height="@dimen/margin_50dp"
+        android:src="@drawable/ic_baseline_sms_24"
+        android:layout_marginLeft="@dimen/margin_40dp"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:padding="@dimen/margin_30dp"
+        />
+        />
+        <ImageButton
+            android:id="@+id/ibShare"
+            android:layout_width="@dimen/margin_50dp"
+            android:layout_height="@dimen/margin_50dp"
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_marginLeft="@dimen/margin_40dp"
+            android:layout_marginTop="@dimen/margin_50dp"
+            android:padding="@dimen/margin_30dp"
+            />
+
+        <ImageButton
+            android:id="@+id/ibMail"
+            android:layout_width="@dimen/margin_50dp"
+            android:layout_height="@dimen/margin_50dp"
+            android:src="@drawable/ic_baseline_email_24"
+            android:layout_marginLeft="@dimen/margin_40dp"
+            android:layout_marginTop="@dimen/margin_50dp"
+            android:padding="@dimen/margin_30dp"
+            />
+</LinearLayout>
 </LinearLayout>
     </layout>

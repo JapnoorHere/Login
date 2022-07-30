@@ -1,6 +1,7 @@
 package com.Japnoor.login
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.*
@@ -17,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding= ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
 
         binding.btnLogin.setOnClickListener {
@@ -61,6 +63,30 @@ class MainActivity : AppCompatActivity() {
             var intent=Intent(this, ForgotPasswordActivity::class.java)
             intent.putExtra("email",binding.etEmail.text.toString())
             startActivity(intent)
+        }
+
+        binding.ibPhone.setOnClickListener{
+            var intent=Intent(Intent.ACTION_DIAL)
+            intent.data=Uri.parse("tel:9041175563")
+            startActivity(intent)
+        }
+
+        binding.ibSms.setOnClickListener {
+            var intent=Intent(Intent.ACTION_VIEW)
+            intent.data=Uri.parse("sms:9041175563")
+            startActivity(intent)
+        }
+        binding.ibShare.setOnClickListener {
+            var intent=Intent(Intent.ACTION_VIEW)
+            startActivity(intent)
+        }
+        binding.ibMail.setOnClickListener {
+            var intent=Intent(Intent.ACTION_SEND)
+            intent.data=Uri.parse("mailto:recipientMail")
+            intent.putExtra(Intent.EXTRA_SUBJECT,"Hello")
+            intent.putExtra(Intent.EXTRA_TEXT,"Hello")
+            intent.type="text/plain"
+            startActivity(Intent.createChooser(intent,"Select your email app"))
         }
     }
 }
