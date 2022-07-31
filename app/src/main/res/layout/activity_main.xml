@@ -119,7 +119,7 @@
         android:layout_width="@dimen/margin_50dp"
         android:layout_height="@dimen/margin_50dp"
         android:src="@drawable/ic_baseline_local_phone_24"
-        android:layout_marginLeft="@dimen/margin_80dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
         android:layout_marginTop="@dimen/margin_50dp"
         android:padding="@dimen/margin_30dp"
         />
@@ -153,5 +153,14 @@
             android:padding="@dimen/margin_30dp"
             />
 </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:src="@drawable/ic_baseline_open_in_browser_24"
+        />
 </LinearLayout>
     </layout>

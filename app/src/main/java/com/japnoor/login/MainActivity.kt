@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.*
+import androidx.core.content.ContextCompat
 import androidx.core.widget.doOnTextChanged
 import com.japnoor.login.SignUpActivity
 import com.japnoor.login.ForgotPasswordActivity
@@ -88,5 +89,12 @@ class MainActivity : AppCompatActivity() {
             intent.type="text/plain"
             startActivity(Intent.createChooser(intent,"Select your email app"))
         }
+
+        binding.ibBrowser.setOnClickListener{
+            var intent=Intent(Intent.ACTION_VIEW)
+            intent.data=Uri.parse("https://www.google.com/")
+            startActivity(intent)
+        }
+        binding.ibMail.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.ic_baseline_arrow_forward_24))
     }
 }
